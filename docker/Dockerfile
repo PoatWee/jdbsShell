@@ -1,7 +1,7 @@
 FROM node:lts-alpine
 LABEL maintainer="Evine Deng <evinedeng@foxmail.com>"
 ARG JD_BASE_URL=https://hub.fastgit.org/wen55333/jdbsShell
-ARG JD_BASE_BRANCH=master
+ARG JD_BASE_BRANCH=main
 ARG JD_SCRIPTS_URL=https://gitee.com/lxk0301/jd_scripts
 ARG JD_SCRIPTS_BRANCH=master
 ARG JD_SCRIPTS2_URL=https://hub.fastgit.org/wen55333/shylocks-Loon
